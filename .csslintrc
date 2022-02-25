@@ -11,6 +11,5 @@
   "errors": [
     "shorthand",
      "gradients"
-  ],
-  "exclude-list":[]
+  ]
 }
