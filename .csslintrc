@@ -1,0 +1,16 @@
+{
+  "ignore": [
+    "adjoining-classes",
+    "important",
+    "order-alphabetical",
+    "ids",
+    "duplicate-properties",
+  ],
+  "warnings": [
+  ],
+  "errors": [
+    "shorthand",
+     "gradients"
+  ],
+  "exclude-list":[]
+}
