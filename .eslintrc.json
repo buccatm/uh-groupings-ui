@@ -3,5 +3,88 @@
     "angular": true,
     "UHGroupingsApp": true,
     "_": true
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double", {
+      "allowTemplateLiterals":  false,
+      "avoidEscape":  false}],
+    "arrow-parens": ["error", "always", {
+      "requireForBlockBody": false
+    }],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "block-scoped-var": "error",
+    "camelcase": ["error", {
+      "ignoreDestructuring":  false,
+      "ignoreGlobals":  false,
+      "ignoreImports":  false}],
+    "complexity": ["error", 4],
+    "curly": "error",
+    "eqeqeq": ["error", "smart"],
+    "generator-star-spacing": ["error", {"before": true, "after":  false}],
+    "guard-for-in": "error",
+    "new-cap": ["error", {
+      "capIsNew": true,
+      "newIsCap": true,
+      "properties": true
+    }],
+    "no-caller": "error",
+    "no-class-assign": "error",
+    "no-cond-assign": "error",
+    "no-console": "error",
+    "no-const-assign": "error",
+    "no-constant-condition": ["error", {"checkLoops":  false}],
+    "no-control-regex": "error",
+    "no-debugger": "error",
+    "no-delete-var": "error",
+    "no-dupe-args": "error",
+    "no-dupe-class-members": "error",
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-empty": ["error", {"allowEmptyCatch":  false}],
+    "no-empty-character-class": "error",
+    "no-eval": ["error", {"allowIndirect":  false}],
+    "no-ex-assign": "error",
+    "no-extend-native": "error",
+    "no-extra-boolean-cast": ["error", { "enforceForLogicalOperands":  false }],
+    "no-extra-semi": "error",
+    "no-fallthrough": ["error", {"commentPattern": ""}],
+    "no-func-assign": "error",
+    "no-inner-declarations": ["error", "functions"],
+    "no-invalid-regexp": "error",
+    "no-irregular-whitespace": ["error", {
+      "skipComments":  false,
+      "skipRegExps": false,
+      "skipStrings":  true,
+      "skipTemplates": false
+    }],
+    "no-iterator": "error",
+    "no-loop-func": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multi-str": "error",
+    "no-unsafe-negation": "error",
+    "no-new": "error",
+    "no-obj-calls": "error",
+    "no-octal": "error",
+    "no-redeclare": ["error", {"builtinGlobals":  true}],
+    "no-regex-spaces": "error",
+    "no-script-url": "error",
+    "no-sparse-arrays": "error",
+    "no-this-before-super": "error",
+    "no-undef": ["error", {"typeof":  false}],
+    "no-undefined": "error",
+    "no-unreachable": "error",
+    "no-use-before-define": "error",
+    "object-shorthand": "error",
+    "require-yield": "error",
+    "use-isnan": ["error", {
+      "enforceForIndexOf":  false,
+      "enforceForSwitchCase":  true
+    }],
+    "valid-typeof": ["error", {"requireStringLiterals":  false}],
+    "wrap-iife": ["error", "outside",{"functionPrototypeMethods":  false}]
   }
 }
