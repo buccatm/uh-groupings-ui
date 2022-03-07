@@ -15,16 +15,23 @@
     "arrow-parens": ["error", "always", {
       "requireForBlockBody": false
     }],
-    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "arrow-spacing": ["error", {
+      "before": true,
+      "after": true
+    }],
     "block-scoped-var": "error",
     "camelcase": ["error", {
       "ignoreDestructuring":  false,
       "ignoreGlobals":  false,
-      "ignoreImports":  false}],
+      "ignoreImports":  false
+    }],
     "complexity": ["error", 4],
     "curly": "error",
     "eqeqeq": ["error", "smart"],
-    "generator-star-spacing": ["error", {"before": true, "after":  false}],
+    "generator-star-spacing": ["error", {
+      "before": true,
+      "after":  false
+    }],
     "guard-for-in": "error",
     "new-cap": ["error", {
       "capIsNew": true,
