@@ -13,3 +13,9 @@ repos:
       rev: 'v7.32.0'
       hooks:
         -   id: eslint
+
+  - repo: https://github.com/dustinsand/pre-commit-jvm
+    rev: v0.4.0
+    hooks:
+      - id: pmd
+        args: [ -rulesets, pmd-ruleset.xml, -cache, .pmd/cache, -dir, src/main/java, -f, textcolor ]
